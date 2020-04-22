@@ -1,0 +1,71 @@
+<div class="row">
+  <div class="col-xl-3 col-sm-6 col-12">
+    <div class="card">
+      <div class="card-content">
+        <div class="card-body">
+          <div class="media d-flex">
+            <div class="media-body text-left">
+              <h3 class="danger">{{totalConfirmed | number }}</h3>
+              <span>Confirmed</span>
+            </div>
+            <div class="align-self-center">
+              <i class="icon-rocket danger font-large-2 float-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-3 col-sm-6 col-12">
+    <div class="card">
+      <div class="card-content">
+        <div class="card-body">
+          <div class="media d-flex">
+            <div class="media-body text-left">
+              <h3 class="success">{{totalRecovered | number}}</h3>
+              <span>Recovered</span>
+            </div>
+            <div class="align-self-center">
+              <i class="icon-user success font-large-2 float-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xl-3 col-sm-6 col-12">
+    <div class="card">
+      <div class="card-content">
+        <div class="card-body">
+          <div class="media d-flex">
+            <div class="media-body text-left">
+              <h3 class="warning">{{totalDeaths | number }}</h3>
+              <span>Deaths</span>
+            </div>
+            <div class="align-self-center">
+              <i class="icon-pie-chart warning font-large-2 float-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-3 col-sm-6 col-12">
+    <div class="card">
+      <div class="card-content">
+        <div class="card-body">
+          <div class="media d-flex">
+            <div class="media-body text-left">
+              <h3 class="primary">{{totalActive | number}}</h3>
+              <span>Active</span>
+            </div>
+            <div class="align-self-center">
+              <i class="icon-support primary font-large-2 float-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
